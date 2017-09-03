@@ -29,7 +29,7 @@ import io.github.ziginsider.glideapp.model.Image;
 public class MainActivity extends AppCompatActivity {
 
     private String TAG = MainActivity.class.getSimpleName();
-    private static final String endpoint = "http://api.androidhive.info/json/glide.json";
+    private static final String endpoint = "https://api.androidhive.info/json/glide.json";
     private ArrayList<Image> images;
     private ProgressDialog pDialog;
     private GalleryAdapter mAdapter;
